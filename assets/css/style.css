@@ -1,0 +1,31 @@
+
+
+
+img{
+    margin-left: 60px;
+}
+.form-control{
+    width: 350px !important;
+    margin-top: 37px !important;
+}
+.btn-outline-success{
+    margin-right: 60px;
+    margin-top: 60px !important;
+}
+
+#buttons-view{
+    background-color: rgb(233, 75, 75);
+    height: 800px;
+    width: 300px !important;
+    float: left;
+}
+
+#gif-view{
+    background-color: rgb(61, 209, 209);
+}
+
+.gif-btn{
+    margin: 10px;
+    background-color: rgb(115, 199, 47);
+    color: white;
+}
