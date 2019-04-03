@@ -34,7 +34,6 @@ $(document).ready(function() {
 
     function makeButtons(){ 
         $("#buttons-view").empty();
-        // loops through the gif array
         for (i = 0; i < topics.length; i++){
             var a = $("<button>") 
             a.addClass("gif-btn"); 
