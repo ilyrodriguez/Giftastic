@@ -20,6 +20,9 @@ img{
     border-radius: 6px;
     padding: 6px;
 }
+.output-area{
+    margin-top: 20px;
+}
 
 #buttons-view{
     background-color: rgb(233, 75, 75);
@@ -49,9 +52,16 @@ img{
 .divGif{
     display: inline;
 }
+
 p{
     display: inline;
 }
+
+    
+span:hover + .hovering {
+    display: block;
+  }
+
 #footer{
     background-color: darkslategray;
     text-align: center;

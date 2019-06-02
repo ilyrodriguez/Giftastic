@@ -25,7 +25,7 @@ $(document).ready(function() {
                 showGif.attr('data-animate', results[i].images.fixed_height.url);
                 var p = $("<p>").text("Rating: " + results[i].rating);
                 showGif.attr("data-state", "data-still");
-                gifDiv.append(p);
+                gifDiv.prepend(p);
                 gifDiv.append(showGif);
                 $("#gif-view").prepend(gifDiv);
             }
