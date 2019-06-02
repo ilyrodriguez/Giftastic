@@ -1,15 +1,21 @@
 # Giftastic
 
-Search for gifs for some animated fun! click on the gif for animation and click again for pause. 
-
-This project was created as an assignment for the UCF Coding Bootcamp. 
-April 2019.
+Search for gifs for some animated fun! 
+click on the gif for animation and click again for pause. 
 
 https://ilyrodriguez.github.io/Giftastic/
 
-Technologies Used:
-HTML
-CSS
-Javascript
-JQuery
-API
+![image](https://user-images.githubusercontent.com/24906805/58767130-2fab9880-8555-11e9-89cf-ba3f9ad0e5bb.png)
+
+
+UCF Coding Bootcamp  -  March 2019
+
+Technologies used:
+- HTML5
+- CSS3
+- Javascript
+- JQuery
+
+- API:
+   - Giphy
+ 
