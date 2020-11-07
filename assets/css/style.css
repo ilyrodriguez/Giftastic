@@ -2,10 +2,25 @@ html{
     text-transform: uppercase;
     font-family: 'Baloo Chettan', cursive;
     font-size: 18px;
+    height: 100%;
 }
 
-img{
-    margin-left: 80px;
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    height: auto;
+}
+
+nav.navbar.navbar-dark.bg-dark {
+    padding-left: 5rem;
+}
+
+.card{
+    margin: 20px;
 }
 
 .form-control{
@@ -27,14 +42,24 @@ img{
 #buttons-view{
     background-color: rgb(233, 75, 75);
     height: auto;
-    width: 300px !important;
+    min-height: 100vh;
     float: left;
-    padding: 10px;
+    padding: 25px;
+}
+
+.row{
+    margin-right: -30px !important;
+}
+
+.gif-area{
+    background-color: rgb(61, 209, 209);
+    padding: 1.5rem;
 }
 
 #gif-view{
-    background-color: rgb(61, 209, 209);
     padding: 20px;
+    height: 100vh;
+    display: contents;
 }
 
 .gif-btn{
@@ -45,9 +70,6 @@ img{
     padding: 10px;
     border-radius: 6px;
     border-style: none;
-    margin-inline-start: 100px;
-    margin-inline-end: 80px;
-    margin-top: 20px;
 }
 .divGif{
     display: inline;

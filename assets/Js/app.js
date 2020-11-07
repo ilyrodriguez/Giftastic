@@ -17,16 +17,19 @@ $(document).ready(function() {
 
             var results = response.data;
             for (var i = 0; i < results.length; i++){
-                var gifDiv = $('<div class= divGif>');
+                var gifDiv = $('<div class= card>');
+                gifDiv.addClass("mx-3")
                 var showGif = $('<img>');
-                showGif.addClass("gifClick");
+                var gifBody = $('<div class= card-body>');
+                showGif.addClass("card-img-top gifClick");
                 showGif.attr('src', results[i].images.fixed_height_still.url);
                 showGif.attr('data-still', results[i].images.fixed_height_still.url);
                 showGif.attr('data-animate', results[i].images.fixed_height.url);
                 var p = $("<p>").text("Rating: " + results[i].rating);
                 showGif.attr("data-state", "data-still");
-                gifDiv.prepend(p);
                 gifDiv.append(showGif);
+                gifDiv.append(gifBody);
+                gifBody.append(p);
                 $("#gif-view").prepend(gifDiv);
             }
         });
