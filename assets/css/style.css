@@ -19,6 +19,10 @@ nav.navbar.navbar-dark.bg-dark {
     padding-left: 5rem;
 }
 
+input#gif-input {
+    text-transform: uppercase;
+}
+
 .card{
     margin: 20px;
 }
@@ -51,6 +55,10 @@ nav.navbar.navbar-dark.bg-dark {
     margin-right: -30px !important;
 }
 
+.instructions {
+padding-left: 2rem;
+}
+
 .gif-area{
     background-color: rgb(61, 209, 209);
     padding: 1.5rem;
@@ -75,10 +83,10 @@ nav.navbar.navbar-dark.bg-dark {
     display: inline;
 }
 
-p{
-    display: inline;
+.card-body>p {
+    font-size: 14px;
+    /* width: min-content; */
 }
-
     
 span:hover + .hovering {
     display: block;

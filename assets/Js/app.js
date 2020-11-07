@@ -25,13 +25,17 @@ $(document).ready(function() {
                 showGif.attr('src', results[i].images.fixed_height_still.url);
                 showGif.attr('data-still', results[i].images.fixed_height_still.url);
                 showGif.attr('data-animate', results[i].images.fixed_height.url);
+                var title = $("<p>").text("Title: " + results[i].title);
                 var p = $("<p>").text("Rating: " + results[i].rating);
+                var space = $('<br>');
                 showGif.attr("data-state", "data-still");
                 gifDiv.append(showGif);
                 gifDiv.append(gifBody);
+                gifBody.append(title).append(space);
                 gifBody.append(p);
                 $("#gif-view").prepend(gifDiv);
             }
+            $('.instructions').removeClass('d-none');
         });
     }
 
